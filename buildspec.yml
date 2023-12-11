@@ -12,6 +12,7 @@ phases:
   build:
     commands:
         # run build script
+        - npm install react-scripts@5
         - npm run build
      
 artifacts:
